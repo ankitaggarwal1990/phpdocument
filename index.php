@@ -1,5 +1,5 @@
 <?php
-echo "asadAD";
+echo "asadAD12123221";
 $con = mysqli_connect('trident1.database.windows.net,1433','trident','password@123','database_azure');
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
