@@ -14,8 +14,8 @@ $db = $documentdb->selectDB("DevMgmtDB");
 $col = $db->selectCollection("DevMgmtCollection");
 
 // store JSON document ("id" needed)
-$data = '{"id":1234567890, "FirstName": "Paul","LastName": "Smith"}';
-$result = $col->createDocument($data);
+//$data = '{"id":1234567890, "FirstName": "Paul","LastName": "Smith"}';
+//$result = $col->createDocument($data);
 
 // run query
 $json = $col->query("SELECT * FROM DevMgmtCollection");
@@ -23,8 +23,6 @@ $json = $col->query("SELECT * FROM DevMgmtCollection");
 // Debug
 $object = json_decode($json);
 var_dump($object->Documents);
-
-
 echo "123";
 
 
