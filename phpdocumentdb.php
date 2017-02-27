@@ -129,6 +129,8 @@ class DocumentDB
    */
   public function __construct($host, $master_key, $debug = false)
   {
+    echo "constructor";
+    
     $this->host       = $host;
     $this->master_key = $master_key;
     $this->debug      = $debug;
