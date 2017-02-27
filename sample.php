@@ -11,7 +11,7 @@
 
 
 <?php
-require_once 'phpdocumentdb.php';
+include 'phpdocumentdb.php';
 
 echo  "Amlo";
 
