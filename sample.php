@@ -22,7 +22,10 @@ $json = $col->query("SELECT * FROM DevMgmtCollection");
 
 // Debug
 $object = json_decode($json);
-var_dump($object->Documents);
+echo $object;
+//var_dump($object->Documents);
+
+
 echo "123";
 
 
