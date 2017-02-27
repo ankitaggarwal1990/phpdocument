@@ -37,7 +37,7 @@ $json = $col->query("SELECT * FROM DevMgmtCollection");
 // Debug
 $object = json_decode($json);
 echo $object;
-//var_dump($object->Documents);
+var_dump($object->Documents);
 
 
 echo "123";
