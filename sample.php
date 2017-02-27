@@ -1,6 +1,8 @@
 <?php
 require_once 'phpdocumentdb.php';
 
+echo  "Amlo";
+
 $host = 'https://trackandtracerescuieda5a28.documents.azure.com:443/';
 $master_key = 'CfSDcA4As7qzpjyA1eeK1SFTIuXvQSyHfZC63g8aMDDcXHaDCeyC6fcW4E1qxm0ztz7LI3vT7gxgWbRZDCULiQ==';
 
