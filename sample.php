@@ -11,6 +11,8 @@
 
 
 <?php
+
+echo  "Amlo1";
 include 'phpdocumentdb.php';
 
 echo  "Amlo";
