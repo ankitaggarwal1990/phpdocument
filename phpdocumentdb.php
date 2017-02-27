@@ -452,6 +452,7 @@ class DocumentDB
    */
   public function getCollection($rid_id, $rid_col)
   {
+    echo "getCollection";
     $headers = $this->getAuthHeaders('GET', 'colls', $rid_col);
     $headers[] = 'Content-Length:0';
     return $this->request("/dbs/" . $rid_id . "/colls/" . $rid_col, "GET", $headers);
